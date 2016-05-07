@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #FFF;
+  background-color: #1c91ce;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px; }
+
+#wrapper {
+  width: 100%; }
+
+#content {
+  width: 95%;
+  position: relative;
+  margin: 0 auto; }
+
+.sign {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #1c91ce; }
+
+form {
+  max-width: 350px;
+  margin: 0 auto; }
+
+form p {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 10px; }
+
+select {
+  margin: 5px;
+  background: transparent;
+  width: 33%;
+  padding: 5px 5px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #555;
+  color: #555;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../images/arrows.png) no-repeat 95%/10% #FFF; }
+
+input#thebutton {
+  margin: 5px;
+  background: #FFF;
+  width: 80px;
+  padding: 5px 5px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #555;
+  color: #555;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: bold; }
+
+img {
+  margin: 0 auto; }
+
+#horoscope {
+  max-width: 400px;
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  padding-top: 20px; }
+
+#signs {
+  padding-top: 20px; }
+
+h1, h2, h3 {
+  font-size: 3em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px; }
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 0px; }
+
+h3 {
+  font-size: 5em;
+  font-family: "Lobster Two", cursive;
+  padding-top: 0px;
+  padding-bottom: 20px; }
+
+.hidden {
+  display: none; }
+
+/*------------------MEDIA QUERIES-----------------*/
+@media screen and (max-width: 330px) {
+  select {
+    width: 31%; } }
+
+/*# sourceMappingURL=main.css.map */
